@@ -1,4 +1,4 @@
-namespace ShorsAlgorithm {
+namespace Shor_Algorithm {
     open Microsoft.Quantum.Arithmetic;
     open Microsoft.Quantum.Convert;
     open Microsoft.Quantum.Math;
@@ -14,7 +14,7 @@ namespace ShorsAlgorithm {
             return r;
         }
     }
-    operation ShorsAlgorithm(N : Int) : (Int, Int) {
+    operation Shor_Algorithm(N : Int) : (Int, Int) {
         mutable factor1 = -1;
         mutable factor2 = -1;
         repeat {
